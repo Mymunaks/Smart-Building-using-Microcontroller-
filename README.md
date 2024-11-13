@@ -1,6 +1,5 @@
 # Smart-Building-using-Microcontroller
 # Project Title
-**Smart-Building-using-Microcontroller**
 In this modern era, due to the improvement in technology many systems are being automated. Among them home appliances, automation and security system are being more popular. Therefore, we decided to make such an approach through our project in the lab. Our main purpose of project is to decrease the waste of energy by making home appliances automated and controlled. Another idea is to ensure home security by preventing unwanted happenings like gas leakage, fire etc. We have been successful in making a model of the home automation system. 
 In this project, we attempted to use two different microcontroller-based control systems for a smart home. Arduino Uno is the microcontroller for the alarm systems and the ESP-32 is the microcontroller for the home-appliance automation systems. Arduino UNO is a very reliable module so it has been used for alarm systems. ESP-32 is very customizable so it is used in home-appliance automation. The reason for two distinct systems is the avoidance of failure of one system due to the fault of another. 
 
