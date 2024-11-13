@@ -15,20 +15,20 @@ In this project, we attempted to use two different microcontroller-based control
 For the home-appliance automation system, we use LDR sensors so that lights do not turn on upon having a threshold intensity of sunlight. Secondly, we used LD2410 sensor module to detect both static and dynamic human presence.We used a 5V DC fan to model a real fan and an LED to model room light.
 
 ## Fire and Gas Protection System
-The fire protection system uses a flame sensor module, which is used to detect flame. If there is any fire outbreak this sensor will send signal to the controller and the controller would command the fire extinguisher to extinguish the fire. A 5V buzzer is used to make alarming sound when there is any flame. A 5V mini water pump is used as a fire extinguisher.
+The fire protection system uses a flame sensor module, which is used to detect flame. If there is any fire outbreak this sensor will send signal to the controller and the controller would command the fire extinguisher to extinguish the fire. A 5V buzzer is used to make alarming sound when there is any flame. A 5V mini water pump is used as a fire extinguisher.  
 The gas detection system uses a MQ2 sensor to detect any gas such as: carbon dioxide, cooking gas, smoke etc. A threshold is set for the sensor. If the density of gas around the sensor crosses the threshold the buzzer makes sound to alert people. A 5V buzzer is used to make alarming sound when there is any gas leakage. 
 
 ## Implementation
 We used cork-sheet to construct a prototype for our smart home. There we set up our sensors at prime locations for their perfect reading and sensing of parameters. The microcontrollers were placed at the bottom of the floor and for fire extinguishing, a bowl full of water was kept and the water pump, a model for fire extinguisher was immersed in it. This is how the simulation of the project was done in hardware implementation for real-life and real-time demonstration.
 
 ## Impact
-The project has many environmental and societal benefits such as, 
-A) Automation: This helped to ease human life and especially elderly people and children to turn on and off appliances without any effort. 
-B) Energy Saving: Since this project senses light intensity and human presence, it prevents the unnecessary switching of fan and light in the room. 
+The project has many environmental and societal benefits such as,  
+A) Automation: This helped to ease human life and especially elderly people and children to turn on and off appliances without any effort.  
+B) Energy Saving: Since this project senses light intensity and human presence, it prevents the unnecessary switching of fan and light in the room.  
 C) Ensuring Safety: Safety of the people has been ensured as fire and gas leakage are the two topmost fatal accidents occurring in modern day buildings due to man-made errors and mistakes.
 
 ## Challenges
-a) A proper static human sensor was not available. So, a thorough investigation had to be done. 
-b) The static human sensor used was not compatible with Arduino UNO due to its BAUD rate. For this reason, ESP 32 had to be used. 
+a) A proper static human sensor was not available. So, a thorough investigation had to be done.  
+b) The static human sensor used was not compatible with Arduino UNO due to its BAUD rate. For this reason, ESP 32 had to be used.  
 c) Some of the components caused the system not to function properly and so faulty equipment had to be tested out and troubleshooted.
 
